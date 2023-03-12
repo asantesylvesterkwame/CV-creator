@@ -6,9 +6,12 @@
 
 }
 .appHolderDiv{
-    background-color: rgb(97, 88, 50);
-    width: 100em;
+    /* background-color: rgb(97, 88, 50); */
+    width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 .navBarDiv{
     padding: 0.1em;
@@ -16,7 +19,6 @@
     justify-content: center;
     background-color: rgb(188, 126, 50);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
 }
 .nameOfApp{
     font-family: poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
