@@ -10,9 +10,10 @@ const Navbar = () => {
             <div className="navBarDiv">
                 <h1 className='nameOfApp'>AMPLIFIED CV - CREATOR APP</h1>
             </div>
+            <CvForm/>
         </div>
-    <CvForm/>
     </div>
+    
   )
 }
 
