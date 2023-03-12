@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Navbar.css";
 
+import CvForm from '../forms/CvForm';
+
 const Navbar = () => {
   return (
     <div className="container">
@@ -9,6 +11,7 @@ const Navbar = () => {
                 <h1 className='nameOfApp'>AMPLIFIED CV - CREATOR APP</h1>
             </div>
         </div>
+    <CvForm/>
     </div>
   )
 }
